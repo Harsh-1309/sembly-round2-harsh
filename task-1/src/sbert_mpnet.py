@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-model=SentenceTransformer("../saved_models/sbert_mpnet")
+model=SentenceTransformer("saved_models/sbert_mpnet")
 
 def get_sbert_cos_sim(text1,text2):
     q1_vector=model.encode([text1])

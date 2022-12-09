@@ -1,11 +1,12 @@
 import joblib
 import numpy as np
 from nltk.tokenize import word_tokenize
+from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-model=load_model("../saved_models/tf_model/lstm")
-word_tokenizer = joblib.load('../saved_models/tf_model/keras_custom_tokenizer')
+model=load_model("saved_models/tf_model/lstm")
+word_tokenizer = joblib.load('saved_models/tf_model/keras_custom_tokenizer')
 max_length=247
 
 def padding_doc(encoded_doc, max_length):
