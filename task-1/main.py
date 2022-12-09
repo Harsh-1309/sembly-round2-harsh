@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
-from preprocessing import preprocess
+from src.preprocessing import preprocess
 
 
 app = FastAPI(
