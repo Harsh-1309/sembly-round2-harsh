@@ -4,3 +4,5 @@
 - ### Task-1: NLP challenge
 - ### Task-2: ML challenge
 - ### Task-3: Paper reading and critical analysis
+
+Tasks done by: Harsh Malani
