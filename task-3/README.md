@@ -1,4 +1,4 @@
-# TASK-3
+# TASK-3: Paper reading and critical analysis
 
 ### The task is to analyse two new proposed models, compare them and finally select the best model for a given problem which appropriate reasoning. 
 
