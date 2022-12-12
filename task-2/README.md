@@ -43,4 +43,6 @@ The directory structure is as follows:
 
 
 
-Detailed desciption of the solution and comparison can be found in section "TASK-1" of [this](https://docs.google.com/document/d/1_pavK68JdQ_8SxT-OM6f4vxpP3ZbF-74v3E2NX0rdjA/edit?usp=sharing) document.
+Detailed desciption of the solution and comparison can be found in section "TASK-2" of [this](https://docs.google.com/document/d/1_pavK68JdQ_8SxT-OM6f4vxpP3ZbF-74v3E2NX0rdjA/edit?usp=sharing) document.
+
+Docker image for the same can be found [here](https://hub.docker.com/repository/docker/harsh1309/wnv) or can be pulled using the command `docker pull harsh1309/wnv:latest`
